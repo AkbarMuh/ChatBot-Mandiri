@@ -51,7 +51,7 @@ if 'logged_in' not in st.session_state or not st.session_state.logged_in:
         if login(username, password):
             st.session_state.logged_in = True
             st.session_state.username = username  # Menyimpan username dalam session state
-            st.experimental_rerun()  # Memaksa Streamlit untuk merender ulang
+            st.rerun()  # Memaksa Streamlit untuk merender ulang
         else:
             st.error("Username atau password salah.")
 else:
@@ -64,7 +64,7 @@ else:
         st.session_state.username = None
         st.session_state.messages = []  # Reset pesan saat logout
         st.success("Anda telah logout.")
-        st.experimental_rerun()  # Memaksa Streamlit untuk merender ulang
+        st.rerun()  # Memaksa Streamlit untuk merender ulang
 
     
     # Initialize chat history in session state if not present
