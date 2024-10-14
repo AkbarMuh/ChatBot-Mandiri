@@ -6,7 +6,7 @@ import streamlit as st
 # Load environment variables
 load_dotenv()
 API_KEY = os.getenv("AZURE_API_KEY")
-ENDPOINT = "https://ml-workspace-squad2-tjuph.eastus2.inference.ml.azure.com/score"
+ENDPOINT = "https://ml-workspace-squad2-yozbt.eastus2.inference.ml.azure.com/score"
 
 # Set headers for the request
 headers = {
