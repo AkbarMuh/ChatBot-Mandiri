@@ -1,2 +1,5 @@
 
 .env
+chat_log.csv
+chat_log.xlsx
+testconnect.py
