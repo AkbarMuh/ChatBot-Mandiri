@@ -269,7 +269,7 @@ else:
         end_time = time.time()
         execution_time = end_time - start_time
         print(f"Execution time: {execution_time} seconds")
-        bot_response = f"{bot_response}\n\nModel {mode4o} | {execution_time:.2f} detik"
+        bot_response = f"{bot_response}\n\n\n{personality} | Model {mode4o} | {execution_time:.2f} detik"
         if bot_response:
             st.session_state.messages.append({"role": "bot", "content": bot_response})
             
