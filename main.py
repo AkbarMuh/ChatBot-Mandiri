@@ -263,6 +263,8 @@ else:
             mode4o = "4o"
             Model_4o_response = get_chatbot_response(prompt, st.session_state.messages)
             bot_response = f"Model 4o: {Model_4o_response}\n\nModel 4o-mini: {Model_4o_mini_response}"
+
+            mode4o = "4o&4o-mini"
         else :
             bot_response = get_chatbot_response(prompt, st.session_state.messages)
         print("Resonponse Content:", bot_response)
