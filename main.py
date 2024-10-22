@@ -11,7 +11,7 @@ import time
 # Load environment variables
 load_dotenv()
 API_KEY = os.getenv("AZURE_API_KEY")
-ENDPOINT = "https://ml-workspace-squad2-iembf.eastus2.inference.ml.azure.com/score"
+ENDPOINT = "https://ml-workspace-squad2-oiiyd.eastus2.inference.ml.azure.com/score"
 
 # Set headers for the request
 headers = {
