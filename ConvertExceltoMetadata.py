@@ -1,16 +1,37 @@
 import streamlit as st
 import pandas as pd
-from cryptography.fernet import Fernet
+from Crypto.Cipher import AES
+from Crypto.Hash import SHA256
+from Crypto.Protocol.KDF import PBKDF2
+import base64
 import pyperclip
 
-# Generate kunci enkripsi (tetap untuk sesi ini)
-key = Fernet.generate_key()
-cipher_suite = Fernet(key)
+# Fungsi untuk menghasilkan kunci dari password (deterministik)
+def get_key(password):
+    salt = b'static_salt'  # Salt statis untuk konsistensi (tidak disarankan dalam situasi nyata)
+    key = PBKDF2(password, salt, dkLen=32, count=1000000, hmac_hash_module=SHA256)
+    return key
 
-# Fungsi untuk enkripsi data
-def encrypt_column(df, columns_to_encrypt):
+# Fungsi untuk mengenkripsi data secara deterministik
+def encrypt_deterministic(data, password):
+    key = get_key(password)
+    cipher = AES.new(key, AES.MODE_ECB)
+    padded_data = data.ljust(32)  # Padding agar panjang data pas untuk blok AES (32 byte)
+    encrypted_data = cipher.encrypt(padded_data.encode())
+    return base64.b64encode(encrypted_data).decode()
+
+# Fungsi untuk mendekripsi data
+def decrypt_deterministic(encrypted_data, password):
+    key = get_key(password)
+    cipher = AES.new(key, AES.MODE_ECB)
+    decoded_encrypted_data = base64.b64decode(encrypted_data)
+    decrypted_data = cipher.decrypt(decoded_encrypted_data)
+    return decrypted_data.decode().strip()  # Menghapus padding
+
+# Fungsi untuk enkripsi data dalam kolom
+def encrypt_column(df, columns_to_encrypt, password):
     for col in columns_to_encrypt:
-        df[col] = df[col].apply(lambda x: cipher_suite.encrypt(str(x).encode()).decode())
+        df[col] = df[col].apply(lambda x: encrypt_deterministic(str(x), password))
     return df
 
 # Fungsi untuk mengubah format data secara dinamis
@@ -30,10 +51,14 @@ def copy_to_clipboard(formatted_data):
 def main():
     st.title('MetaData Index Converter')
 
+    # Password untuk enkripsi
+    st.text("Password untuk Enkripsi: 1234")
+    password = st.text_input("Masukkan Password untuk Enkripsi", type="password")
+
     # File upload
     uploaded_file = st.file_uploader("Unggah file CSV atau Excel", type=['csv', 'xlsx'])
 
-    if uploaded_file is not None:
+    if uploaded_file is not None and password:
         # Memuat file ke dataframe
         if uploaded_file.name.endswith('.csv'):
             df = pd.read_csv(uploaded_file)
@@ -59,7 +84,7 @@ def main():
 
         # Jika ada kolom yang dipilih untuk dienkripsi, lakukan enkripsi
         if columns_to_encrypt:
-            df = encrypt_column(df, columns_to_encrypt)
+            df = encrypt_column(df, columns_to_encrypt, password)
 
         # Mengubah format data berdasarkan kolom yang dipilih
         formatted_data = format_data(df, selected_columns)
