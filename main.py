@@ -8,12 +8,10 @@ import pandas as pd  # Import pandas untuk menyimpan log ke file Excel
 import csv  # Import csv untuk menyimpan log ke file CSV
 import time
 
-# Load environment variables
 load_dotenv()
 API_KEY = os.getenv("AZURE_API_KEY")
 ENDPOINT = "https://ml-workspace-squad2-oiiyd.eastus2.inference.ml.azure.com/score"
 
-# Set headers for the request
 headers = {
     "Content-Type": "application/json",
     "Authorization": f"Bearer {API_KEY}",
@@ -117,7 +115,6 @@ personality_db = {
 }
 
 
-# Fungsi untuk login
 def login(username, password):
     if username in users and users[username] == password:
         return True
@@ -136,7 +133,6 @@ def remove_emoji(string):
                   r'\U000024C2-\U0001F251]', " ", string)
 
 def save_chat_log_xlsx(user, user_message, bot_message, personality):
-    # Ganti emoji dengan spasi
     user_message = remove_emoji(user_message)
     bot_message = remove_emoji(bot_message)
 
@@ -151,10 +147,8 @@ def save_chat_log_xlsx(user, user_message, bot_message, personality):
 
     df = pd.DataFrame(log_data)
 
-    # Simpan log ke file Excel (.xlsx)
     file_path = "chat_log.xlsx"
     if os.path.exists(file_path):
-        # Append to existing Excel file
         with pd.ExcelWriter(file_path, engine='openpyxl', mode='a', if_sheet_exists='overlay') as writer:
             df.to_excel(writer, sheet_name='Log Chat', index=False, header=False, startrow=writer.sheets['Log Chat'].max_row)
     else:
@@ -164,27 +158,22 @@ def save_chat_log_xlsx(user, user_message, bot_message, personality):
 
 # Fungsi untuk menyimpan log chat ke dalam file CSV
 def save_chat_log_csv(user, user_message, bot_message, personality):
-    # Ganti emoji dengan spasi
     user_message = remove_emoji(user_message)
     bot_message = remove_emoji(bot_message)
 
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")  # Format waktu dan tanggal
     log_data = [timestamp, user, personality,user_message, bot_message]
     
-    # Simpan log ke file CSV
     file_exists = os.path.isfile("chat_log.csv")
     with open("chat_log.csv", "a", newline="") as log_file:
         writer = csv.writer(log_file)
-        # Tulis header jika file baru dibuat
         if not file_exists:
             writer.writerow(["Waktu", "User", "Pertanyaan", "Jawaban"])
-        # Tulis data log
         writer.writerow(log_data)
 
 
 st.set_page_config(page_title="Bank Mandiri Chatbot", layout="wide")
 
-# Login logic
 if 'logged_in' not in st.session_state or not st.session_state.logged_in:
     st.title("Sistem Autentikasi")
     with st.form(key='login_form'):
@@ -192,7 +181,6 @@ if 'logged_in' not in st.session_state or not st.session_state.logged_in:
         password = st.text_input("Password", type='password')
         submit_button = st.form_submit_button("Login")
 
-    # Memeriksa login
     if submit_button:
         if login(username, password):
             st.session_state.logged_in = True
@@ -215,15 +203,12 @@ else:
         st.success("Anda telah logout.")
         st.rerun()  # Memaksa Streamlit untuk merender ulang
 
-    # Initialize chat history in session state if not present
     if "messages" not in st.session_state:
-        st.session_state.messages = []  # Empty chat history as the default state
+        st.session_state.messages = [] 
 
     # Function to call the API
     def get_chatbot_response(user_message, chat_history):
-        # Prepare chat history in the correct format
         chat_history_formatted = [{"role": msg["role"], "content": msg["content"]} for msg in chat_history]                        
-        # Define payload for the API request
         payload = {
             "chat_input": user_message,
             "PromptBank": """
@@ -236,11 +221,9 @@ else:
 
 
         try:
-            # Send the POST request to the endpoint
             response = requests.post(ENDPOINT, headers=headers, json=payload)
             #print(f"Response Status Code: {response.status_code}")
             #print(f"Response Content: {response.text}")  # Ini untuk melihat isi respons
-            # Check the status of the response
             if response.status_code == 200:
                 return response.json().get("chat_output", "No response in JSON.")
             else:
@@ -249,13 +232,10 @@ else:
         except requests.RequestException as e:
             return f"An error occurred: {e}"
 
-    # Chat interface
     if prompt := st.chat_input("Ketik pertanyaan atau permintaan Anda"):
         start_time = time.time()
-        # Display user's message in the chat history
         st.session_state.messages.append({"role": "user", "content": prompt})
 
-        # Get the chatbot response using the current chat history
         if mode4o == "4o&4o-mini":
             mode4o = "4o-mini"
             Model_4o_mini_response = get_chatbot_response(prompt, st.session_state.messages)
@@ -271,11 +251,9 @@ else:
         end_time = time.time()
         execution_time = end_time - start_time
         print(f"Execution time: {execution_time} seconds")
-        bot_response = f"{bot_response}\n\n\n{personality} | Model {mode4o} | {execution_time:.2f} detik"
+        bot_response = f"{bot_response}\n\n\n{personality} | Model {mode4o} | Token {len(bot_response)} | {execution_time:.2f} detik"
         if bot_response:
             st.session_state.messages.append({"role": "bot", "content": bot_response})
-            
-            # Simpan log chat ke file Excel (.xlsx)
             save_chat_log_xlsx(st.session_state.username, prompt, bot_response, personality)
             save_chat_log_csv(st.session_state.username, prompt, bot_response, personality)
 
