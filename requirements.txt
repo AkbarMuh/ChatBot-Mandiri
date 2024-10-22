@@ -5,5 +5,5 @@ python-dotenv==1.0.0
 openpyxl
 
 #Convert
-cryptography
-pyperclip
+pycryptodome==3.19.0
+pyperclip==1.8.2
