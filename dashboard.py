@@ -51,6 +51,10 @@ try:
                 4. Berikan rekomendasi untuk meningkatkan pengalaman pengguna berdasarkan preferensi dan pola yang ditemukan, termasuk cara menyesuaikan gaya percakapan dan meningkatkan relevansi informasi yang disediakan.
                 5. Buat kesimpulan dari analisis yang dilakukan dan sertakan rekomendasi yang spesifik dan terukur.
                 6. Berdasarkan log obrolan di atas, apa yang dapat Anda simpulkan tentang pengguna? Memberikan wawasan tentang preferensi, perilaku, dan informasi lain yang relevan dengan pengguna.
+                7. List kan jenis pertanyaan yang sering diajukan oleh user dan kategori pertanyaan tersebut (misalnya, informasi akun, fitur aplikasi, dll.).
+                8. Top 3 Pertanyaan yang sering diajukan oleh user.
+                9. Top 3 Kategori pertanyaan yang sering diajukan oleh user.
+                10. Top 3 Respons yang disukai user.
             """
     
     # Membuat payload untuk permintaan
