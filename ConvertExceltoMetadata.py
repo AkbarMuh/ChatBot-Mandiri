@@ -1,46 +1,27 @@
 import streamlit as st
 import pandas as pd
-from Crypto.Cipher import AES
-from Crypto.Hash import SHA256
-from Crypto.Protocol.KDF import PBKDF2
-import base64
 import pyperclip
 
-# Fungsi untuk menghasilkan kunci dari password (deterministik)
-def get_key(password):
-    salt = b'static_salt'  # Salt statis untuk konsistensi (tidak disarankan dalam situasi nyata)
-    key = PBKDF2(password, salt, dkLen=32, count=1000000, hmac_hash_module=SHA256)
-    return key
+# Fungsi Caesar cipher untuk encoding
+def caesar_cipher(text, shift):
+    encoded_text = ""
+    for char in text:
+        if char.isalpha():  # Hanya menggeser huruf
+            shift_base = ord('A') if char.isupper() else ord('a')
+            encoded_text += chr((ord(char) - shift_base + shift) % 26 + shift_base)
+        else:
+            encoded_text += char  # Non-huruf tetap sama
+    return encoded_text
 
-# Fungsi untuk mengenkripsi data secara deterministik
-def encrypt_deterministic(data, password):
-    key = get_key(password)
-    cipher = AES.new(key, AES.MODE_ECB)
-    padded_data = data.ljust(32)  # Padding agar panjang data pas untuk blok AES (32 byte)
-    encrypted_data = cipher.encrypt(padded_data.encode())
-    return base64.b64encode(encrypted_data).decode()
-
-# Fungsi untuk mendekripsi data
-def decrypt_deterministic(encrypted_data, password):
-    key = get_key(password)
-    cipher = AES.new(key, AES.MODE_ECB)
-    decoded_encrypted_data = base64.b64decode(encrypted_data)
-    decrypted_data = cipher.decrypt(decoded_encrypted_data)
-    return decrypted_data.decode().strip()  # Menghapus padding
-
-# Fungsi untuk enkripsi data dalam kolom
-def encrypt_column(df, columns_to_encrypt, password):
-    for col in columns_to_encrypt:
-        df[col] = df[col].apply(lambda x: encrypt_deterministic(str(x), password))
+# Fungsi untuk encode data dalam kolom menggunakan Caesar cipher dengan separator '| |'
+def encode_column(df, columns_to_encode, shift):
+    for col in columns_to_encode:
+        df[col] = df[col].astype(str).apply(lambda x: '|-' + caesar_cipher(x, shift) + '-|')
     return df
 
 # Fungsi untuk mengubah format data secara dinamis
 def format_data(df, selected_columns):
-    formatted_data = []
-    for index, row in df.iterrows():
-        formatted_row = ', '.join([f"{col} : {row[col]}" for col in selected_columns])
-        formatted_data.append(formatted_row)
-    return formatted_data
+    return [', '.join([f"{col} : {row[col]}" for col in selected_columns]) for _, row in df.iterrows()]
 
 # Fungsi untuk menyalin data ke clipboard
 def copy_to_clipboard(formatted_data):
@@ -49,16 +30,15 @@ def copy_to_clipboard(formatted_data):
 
 # Fungsi utama untuk Streamlit
 def main():
-    st.title('MetaData Index Converter')
+    st.title('MetaData Index Converter - Caesar Cipher')
 
-    # Password untuk enkripsi
-    st.text("Password untuk Enkripsi: 1234")
-    password = st.text_input("Masukkan Password untuk Enkripsi", type="password")
+    # Nilai shift untuk Caesar cipher
+    shift = st.number_input("Masukkan nilai shift untuk encoding Caesar", min_value=1, max_value=25, value=3)
 
     # File upload
     uploaded_file = st.file_uploader("Unggah file CSV atau Excel", type=['csv', 'xlsx'])
 
-    if uploaded_file is not None and password:
+    if uploaded_file is not None:
         # Memuat file ke dataframe
         if uploaded_file.name.endswith('.csv'):
             df = pd.read_csv(uploaded_file)
@@ -75,16 +55,16 @@ def main():
             default=df.columns.tolist()
         )
 
-        # Pemilihan kolom untuk dienkripsi
-        columns_to_encrypt = st.multiselect(
-            "Pilih Kolom yang Akan Dienkripsi",
+        # Pemilihan kolom untuk di-encode
+        columns_to_encode = st.multiselect(
+            "Pilih Kolom yang Akan Di-encode",
             options=selected_columns,
-            help="Hanya kolom yang dipilih sebelumnya bisa dienkripsi"
+            help="Hanya kolom yang dipilih sebelumnya bisa di-encode"
         )
 
-        # Jika ada kolom yang dipilih untuk dienkripsi, lakukan enkripsi
-        if columns_to_encrypt:
-            df = encrypt_column(df, columns_to_encrypt, password)
+        # Jika ada kolom yang dipilih untuk di-encode, lakukan encoding
+        if columns_to_encode:
+            df = encode_column(df, columns_to_encode, shift)
 
         # Mengubah format data berdasarkan kolom yang dipilih
         formatted_data = format_data(df, selected_columns)
