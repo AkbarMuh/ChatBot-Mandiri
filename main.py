@@ -10,7 +10,7 @@ import time
 
 load_dotenv()
 API_KEY = os.getenv("AZURE_API_KEY")
-ENDPOINT = "https://ml-workspace-squad2-tyyjl.eastus2.inference.ml.azure.com/score"
+ENDPOINT = "https://ml-workspace-squad2-fksub.eastus2.inference.ml.azure.com/score"
 
 headers = {
     "Content-Type": "application/json",
