@@ -1016,3 +1016,449 @@ Dengan melihat preferensi dan aktivitas keuangan Cesio Ahmad, produk-produk di a
 
 
 Lansia (56+ tahun) | Model 4o | Token 1379 | 8.33 detik"
+2024-10-30 23:53:37,Sunarto Xie,Anak Muda (18-25 tahun),halo siapa kamu,"Model 4o: Failed to reach the endpoint. Status code: 401, Error: key_auth_access_denied
+Please check this guide to understand why this error code might have been returned 
+https://docs.microsoft.com/en-us/azure/machine-learning/how-to-troubleshoot-online-endpoints#http-status-codes
+
+
+Model 4o-mini: Failed to reach the endpoint. Status code: 401, Error: key_auth_access_denied
+Please check this guide to understand why this error code might have been returned 
+https://docs.microsoft.com/en-us/azure/machine-learning/how-to-troubleshoot-online-endpoints#http-status-codes
+
+
+
+Anak Muda (18-25 tahun) | Model 4o&4o-mini | Token 573 | 2.91 detik"
+2024-10-30 23:54:23,Sunarto Xie,Anak Muda (18-25 tahun),halo siapa kamu,"Model 4o: Halo! Aku Mita, chatbot Customer Service dari Bank Mandiri. Aku di sini untuk membantu kamu dengan segala pertanyaan seputar layanan perbankan. Ada yang bisa aku bantu hari ini?  
+
+Model 4o-mini: Halo! Aku Mita, chatbot Customer Service dari Bank Mandiri.   Aku di sini untuk membantu kamu dengan semua pertanyaan seputar layanan perbankan. Apa yang bisa aku bantu hari ini?  
+
+
+Anak Muda (18-25 tahun) | Model 4o&4o-mini | Token 386 | 13.89 detik"
+2024-10-31 00:01:22,Sunarto Xie,Anak Muda (18-25 tahun),Halo siapa kamu?,"Model 4o: Halo! Aku Mita, chatbot Customer Service dari Bank Mandiri. Aku di sini untuk membantu kamu dengan segala pertanyaan seputar layanan perbankan. Ada yang bisa aku bantu hari ini?  
+
+Model 4o-mini: Halo! Aku Mita, chatbot Customer Service dari Bank Mandiri. Aku di sini untuk membantu kamu dengan semua pertanyaan seputar layanan perbankan. Mau tanya apa nih?  
+
+
+Anak Muda (18-25 tahun) | Model 4o-miniToken 163 | 3.227980613708496 detik|| Model 4oToken 179 | 3.3272347450256348 detik"
+2024-10-31 00:02:02,Sunarto Xie,Anak Muda (18-25 tahun),apa saja product livin,"Di New Livin’ by Mandiri, kamu bisa menemukan berbagai produk perbankan yang super lengkap! Berikut ini beberapa produk yang bisa kamu akses:
+
+1. **Tabungan**: Ada banyak pilihan, seperti tabungan mandiri, tabungan payroll, tabungan online, tabungan now, tabungan micro, tabungan TKI, dan tabungan premium.  
+   
+2. **Deposito**: Untuk kamu yang mau menyimpan uang dengan bunga yang lebih tinggi.  
+
+3. **Kartu Kredit**: Kamu bisa mengajukan Mandiri Kartu Kredit langsung dari aplikasi!   
+
+4. **Pinjaman**: Terdapat pinjaman personal, micro loan, KPR, dan pinjaman lainnya. 
+
+5. **Giro**: Untuk transaksi yang lebih fleksibel. 
+
+6. **Tabungan Rencana**: Sesuaikan dengan budget dan target yang ingin kamu capai.  
+
+Semua produk ini bisa kamu lihat dan kelola langsung di aplikasi New Livin’ by Mandiri. Jadi, siap untuk memanfaatkan semua fitur menariknya?  
+
+
+Anak Muda (18-25 tahun) | Model 4o-miniToken 859 | 4.375591039657593 detik"
+2024-10-31 00:02:24,Sunarto Xie,Anak Muda (18-25 tahun),apa saja product livin,"Hey!   Di New Livin’ by Mandiri, kamu bisa menemukan berbagai produk perbankan yang super lengkap! Berikut ini beberapa produk yang bisa kamu akses:
+
+1. **Rekening Tabungan**: Ada banyak pilihan, seperti tabungan mandiri, tabungan payroll, tabungan online, dan tabungan premium.
+2. **Rekening Giro**: Untuk kebutuhan transaksi yang lebih fleksibel.
+3. **Kartu Kredit**: Kamu bisa mengajukan Mandiri Kartu Kredit langsung dari aplikasi.
+4. **Pinjaman**: Termasuk pinjaman personal, micro loan, dan KPR.
+5. **Deposito**: Untuk investasi yang lebih aman.
+6. **E-Wallet**: Fitur linkage e-Wallet untuk memudahkan transaksi.
+
+Semua produk ini bisa kamu akses dengan mudah melalui aplikasi New Livin’ by Mandiri! Jika ada yang ingin kamu tanyakan lebih lanjut, jangan ragu untuk tanya ya!   
+
+
+Anak Muda (18-25 tahun) | Model 4o-mini| Token 785 | 4.3829710483551025 detik"
+2024-10-31 00:09:10,Sunarto Xie,Anak Muda (18-25 tahun),apa saja product livin,"Hey!   Di New Livin’ by Mandiri, kamu bisa menemukan berbagai produk perbankan yang super lengkap! Berikut ini beberapa produk yang bisa kamu akses:
+
+1. **Tabungan**: Ada banyak jenis tabungan seperti tabungan mandiri, tabungan payroll, tabungan online, tabungan now, tabungan micro, tabungan TKI, dan tabungan premium.  
+   
+2. **Deposito**: Kamu bisa buka deposito untuk investasi yang lebih aman.  
+
+3. **Kartu Kredit**: Ajukan Mandiri Kartu Kredit langsung dari aplikasi!   
+
+4. **Pinjaman**: Terdapat pinjaman personal, micro loan, KPR, dan pinjaman lainnya. 
+
+5. **Giro**: Produk giro juga tersedia untuk kebutuhan transaksi harian. 
+
+6. **Tabungan Rencana**: Sesuaikan dengan budget dan target yang ingin kamu capai.  
+
+Semua produk ini bisa kamu lihat dan kelola langsung di aplikasi New Livin’ by Mandiri. Jadi, siap untuk memulai transaksi?  
+
+
+Anak Muda (18-25 tahun) | Model 4o-mini | Token 852 | 6.13 detik"
+2024-10-31 00:09:55,Sunarto Xie,Anak Muda (18-25 tahun),apa saja product livin,"Model 4o: Hai!   Di aplikasi New Livin’ by Mandiri, kamu bisa menikmati berbagai produk perbankan yang keren banget. Berikut beberapa produk yang bisa kamu akses:
+
+1. **Tabungan**: Kamu bisa cek semua jenis tabungan seperti tabungan mandiri, tabungan payroll, tabungan online, dan lainnya (Source: FAQ/Panduan Jawaban New Livin’ by Mandiri).
+
+2. **Deposito**: Lihat dan kelola deposito kamu langsung dari aplikasi (Source: FAQ/Panduan Jawaban New Livin’ by Mandiri).
+
+3. **Kartu Kredit**: Kamu bisa ajukan dan lacak pengiriman serta aktivasi kartu kredit dari aplikasi (Source: FAQ/Panduan Jawaban New Livin’ by Mandiri).
+
+4. **Pinjaman**: Ada berbagai jenis pinjaman seperti Pinjaman Serbaguna, Kredit Usaha Rakyat (KUR), dan lainnya yang bisa kamu cek (Source: FAQ/Panduan Jawaban New Livin’ by Mandiri).
+
+5. **Investasi**: Kamu bisa berinvestasi di Surat Berharga Negara (SBN) Ritel langsung dari aplikasi (Source: FAQ/Panduan Jawaban New Livin’ by Mandiri).
+
+6. **E-Wallet**: Fitur linkage e-Wallet untuk menghubungkan akun e-Wallet kamu dengan New Livin’ by Mandiri (Source: FAQ/Panduan Jawaban New Livin’ by Mandiri).
+
+Jadi, banyak banget yang bisa kamu lakukan dengan New Livin’ by Mandiri! Kalau ada yang mau ditanyakan lebih lanjut, jangan ragu buat tanya ya!  
+
+Model 4o-mini: Hey!   Di New Livin’ by Mandiri, kamu bisa menemukan berbagai produk perbankan yang super lengkap! Berikut ini beberapa produk yang bisa kamu akses:
+
+1. **Tabungan**: Ada banyak pilihan, seperti tabungan mandiri, tabungan payroll, tabungan online, tabungan now, tabungan micro, tabungan TKI, dan tabungan premium.
+2. **Deposito**: Untuk kamu yang mau menyimpan uang dengan bunga yang lebih tinggi.
+3. **Kartu Kredit**: Pengajuan Mandiri Kartu Kredit bisa langsung dari aplikasi, dan kamu bisa tracking pengiriman serta aktivasi kartu.
+4. **Pinjaman**: Terdapat pinjaman personal, micro loan, KPR, dan pinjaman lainnya.
+5. **E-Wallet**: Fitur linkage e-Wallet yang memungkinkan kamu menghubungkan akun e-Wallet dengan New Livin’ by Mandiri.
+
+Jadi, semua kebutuhan perbankan kamu bisa diakses dalam satu aplikasi!   Kalau ada yang mau ditanyakan lebih lanjut, jangan ragu ya!
+
+
+Anak Muda (18-25 tahun) | Modzel 4o-mini Token 873 | 4.45 detik || Model 4o Token 1260 | 6.1330726146698 detik"
+2024-10-31 00:11:19,Sunarto Xie,Anak Muda (18-25 tahun),apa saja product livin,"Model 4o: Hai!   Produk Livin' by Mandiri mencakup berbagai layanan perbankan digital yang super lengkap. Kamu bisa menikmati layanan seperti tabungan, deposito, transfer uang, dan pembayaran tagihan. Selain itu, ada juga produk investasi yang bisa kamu akses langsung dari aplikasi. Livin' juga punya fitur-fitur keren lainnya yang bikin transaksi online jadi lebih mudah dan praktis. Jadi, semuanya ada dalam satu aplikasi yang modern dan cocok banget buat kamu!   (Source: FAQ/Panduan Jawaban New Livin’ by Mandiri)
+
+Model 4o-mini: Hey!   Di New Livin’ by Mandiri, kamu bisa menemukan berbagai produk perbankan yang super lengkap! Berikut ini beberapa produk yang bisa kamu akses:
+
+1. **Tabungan**: Ada banyak pilihan, seperti tabungan mandiri, tabungan payroll, tabungan online, tabungan now, tabungan micro, tabungan TKI, dan tabungan premium.
+2. **Deposito**: Untuk kamu yang mau menyimpan uang dengan bunga yang lebih tinggi.
+3. **Kartu Kredit**: Pengajuan Mandiri Kartu Kredit bisa langsung dari aplikasi, lho!
+4. **Pinjaman**: Termasuk pinjaman personal, micro loan, KPR, dan pinjaman lainnya.
+5. **Giro**: Untuk transaksi yang lebih fleksibel.
+
+Kamu juga bisa melihat portofolio produk perbankan kamu di aplikasi. Jadi, semua informasi ada dalam satu tempat!   Jika ada yang mau ditanyakan lebih lanjut, jangan ragu untuk tanya, ya!
+
+
+Anak Muda (18-25 tahun) | Model 4o-mini | Token 807 | 5.15 detik || Model 4o | Token 508 | 4.35 detik"
+2024-10-31 00:14:07,Sunarto Xie,Anak Muda (18-25 tahun),apa saja product livin,"Model 4o: Hai!   Berikut adalah beberapa produk Livin' by Mandiri yang bisa kamu manfaatkan:
+
+1. **Tabungan**: Menawarkan berbagai fitur untuk mengelola keuanganmu dengan lebih mudah.
+2. **Kredit**: Berbagai pilihan pinjaman yang bisa disesuaikan dengan kebutuhan pribadimu.
+3. **Investasi**: Produk investasi yang dirancang untuk membantu meningkatkan asetmu.
+4. **Asuransi**: Memberikan perlindungan finansial untuk berbagai risiko yang mungkin kamu hadapi.
+5. **Transaksi**: Fasilitas untuk melakukan berbagai transaksi secara digital dengan cepat dan aman.
+
+Kalau ada yang mau ditanyakan lebih lanjut, jangan ragu ya!  
+
+Model 4o-mini: Produk Livin’ by Mandiri mencakup berbagai layanan perbankan digital yang super praktis!   Berikut ini beberapa produk dan layanan yang bisa kamu nikmati:
+
+1. **Rekening Tabungan**: Buka rekening tabungan dengan mudah dan cepat, bahkan bisa dilakukan secara online!  
+2. **Transfer Uang**: Kirim uang ke teman atau keluarga dengan cepat dan aman, kapan saja dan di mana saja.  
+3. **Pembayaran Tagihan**: Bayar tagihan bulanan seperti listrik, air, dan internet tanpa ribet.  
+4. **Pembelian Pulsa**: Isi pulsa atau paket data dengan mudah langsung dari aplikasi.  
+5. **Investasi**: Akses berbagai produk investasi untuk membantu kamu mengelola keuangan dengan lebih baik.  
+6. **Fitur Keuangan Pribadi**: Dapatkan bantuan untuk mengelola keuanganmu dengan lebih efisien.  
+
+Dengan Livin’, semua transaksi jadi lebih mudah dan cepat! Yuk, coba sekarang!  
+
+
+Anak Muda (18-25 tahun) | 4o&4o-mini 
+Model 4o-mini | Token 856 | 4.95 detik
+Model 4o | Token 613 | 6.31 detik"
+2024-10-31 00:17:09,Sunarto Xie,Anak Muda (18-25 tahun),apa saja product livin,"Model 4o: Hai!   Produk Livin' by Mandiri menawarkan berbagai layanan keren buat kamu, seperti:
+
+1. **Transfer Antar Bank**: Kirim uang ke bank lain dengan mudah.
+2. **Pembayaran Tagihan**: Bayar tagihan listrik, air, dan lainnya langsung dari aplikasi.
+3. **Pengelolaan Tabungan**: Cek saldo, mutasi rekening, dan kelola tabunganmu.
+4. **Fitur Investasi**: Mulai investasi dengan mudah lewat aplikasi.
+
+Selain itu, ada juga fitur-fitur menarik lainnya seperti pembukaan rekening online dengan face recognition, pengajuan kartu kredit, dan tarik tunai tanpa kartu hingga Rp 5 juta/hari (Source: FAQ/Panduan Jawaban New Livin’ by Mandiri). Yuk, coba eksplor semua fiturnya di aplikasi Livin' by Mandiri!  
+
+Model 4o-mini: Hey!   Di New Livin’ by Mandiri, kamu bisa menemukan berbagai produk perbankan yang super lengkap! Berikut ini beberapa produk yang bisa kamu akses:
+
+1. **Tabungan**: Ada banyak pilihan, seperti tabungan mandiri, tabungan payroll, tabungan online, tabungan now, tabungan micro, tabungan TKI, dan tabungan premium.
+2. **Deposito**: Untuk kamu yang mau menyimpan uang dengan bunga yang lebih tinggi.
+3. **Kartu Kredit**: Pengajuan Mandiri Kartu Kredit bisa langsung dari aplikasi, lho!
+4. **Pinjaman**: Termasuk pinjaman personal, micro loan, KPR, dan pinjaman lainnya.
+5. **Giro**: Untuk transaksi yang lebih fleksibel.
+
+Kamu juga bisa melihat portofolio produk perbankan kamu di aplikasi. Jadi, semua informasi ada dalam satu tempat!   Jika ada yang mau ditanyakan lebih lanjut, jangan ragu untuk tanya ya!
+
+
+Anak Muda (18-25 tahun) | 4o&4o-mini"
+2024-10-31 00:18:24,Sunarto Xie,Anak Muda (18-25 tahun),apa saja product livin,"Model 4o: Hai!   Produk Livin' by Mandiri mencakup berbagai layanan perbankan digital yang keren banget buat kamu. Di antaranya ada:
+
+1. **Tabungan**: Kamu bisa cek semua jenis tabungan yang kamu punya, seperti tabungan mandiri, tabungan payroll, dan lainnya.
+2. **Transfer Uang**: Kirim uang jadi lebih mudah dan cepat.
+3. **Pembayaran**: Bayar tagihan atau belanja online langsung dari aplikasi.
+4. **Pembelian Pulsa**: Isi ulang pulsa langsung dari aplikasi, praktis banget!
+5. **Investasi**: Kamu bisa mulai investasi dengan mudah, termasuk beli Surat Berharga Negara (SBN) Ritel.
+6. **Kartu Kredit**: Ajukan dan kelola kartu kredit langsung dari aplikasi.
+7. **Pinjaman**: Cek dan ajukan pinjaman dengan mudah.
+8. **e-Wallet Linkage**: Hubungkan akun e-Wallet kamu untuk kemudahan transaksi.
+
+Jangan lupa, semua ini bisa diakses langsung dari smartphone kamu!    Kalau ada yang mau ditanya lebih lanjut, feel free to ask!
+
+Model 4o-mini: Hey!   Di New Livin’ by Mandiri, kamu bisa menemukan berbagai produk perbankan yang super lengkap! Berikut ini beberapa produk yang bisa kamu akses:
+
+1. **Tabungan**: Ada banyak jenis tabungan seperti tabungan mandiri, tabungan payroll, tabungan online, tabungan now, tabungan micro, tabungan TKI, dan tabungan premium.  
+   
+2. **Deposito**: Kamu bisa buka deposito untuk investasi yang lebih aman.  
+
+3. **Kartu Kredit**: Ajukan Mandiri Kartu Kredit langsung dari aplikasi!   
+
+4. **Pinjaman**: Terdapat pinjaman personal, micro loan, KPR, dan pinjaman lainnya. 
+
+5. **Giro**: Produk giro juga tersedia untuk kebutuhan transaksi harian. 
+
+6. **Tabungan Rencana**: Sesuaikan dengan budget dan target yang ingin dicapai.  
+
+Kamu bisa lihat semua produk ini dan lebih banyak lagi di aplikasi New Livin’ by Mandiri. Gampang banget, kan? Jika ada yang mau ditanyakan lebih lanjut, jangan ragu untuk tanya!  
+
+
+Anak Muda (18-25 tahun) | 4o&4o-mini 
+Model 4o-mini | Token 904 | 4.43 detik
+
+
+Model 4o | Token 916 | 5.69 detik"
+2024-10-31 00:19:14,Sunarto Xie,Anak Muda (18-25 tahun),apa itu livin,"Model 4o: Hai!   Livin' by Mandiri adalah aplikasi perbankan digital dari Bank Mandiri yang bikin hidup kamu lebih praktis dalam urusan keuangan. Dengan Livin', kamu bisa melakukan berbagai transaksi seperti transfer, pembayaran, dan cek saldo langsung dari smartphone kamu. Aplikasi ini dirancang untuk memudahkan kamu mengelola keuangan dengan lebih efisien dan praktis, tanpa perlu repot ke bank. Cocok banget buat kamu yang aktif dan ingin semuanya serba cepat!   (Source: FAQ/Panduan Jawaban New Livin’ by Mandiri)
+
+Model 4o-mini: Livin' by Mandiri adalah aplikasi perbankan digital yang super praktis!   Dengan Livin, kamu bisa melakukan berbagai transaksi keuangan dengan mudah dan cepat, seperti transfer uang, bayar tagihan, beli pulsa, dan cek informasi rekening secara real-time. 
+
+Aplikasi ini dirancang untuk membantu kamu mengelola keuangan tanpa perlu repot-repot ke bank fisik. Jadi, semua bisa dilakukan dari smartphone kamu!    Cocok banget buat kamu yang aktif dan ingin semuanya serba cepat!
+
+
+Anak Muda (18-25 tahun) | 4o&4o-mini 
+
+
+- Model 4o-mini | Token 475 | 3.87 detik
+
+
+- Model 4o | Token 509 | 5.28 detik"
+2024-10-31 00:20:03,Sunarto Xie,Anak Muda (18-25 tahun),apa itu livin,"Model 4o: Hai!   Livin' by Mandiri adalah aplikasi perbankan digital dari Bank Mandiri yang memudahkan kamu untuk melakukan berbagai transaksi finansial langsung dari smartphone. Dengan Livin', kamu bisa transfer uang, bayar tagihan, beli pulsa, dan kelola tabungan dengan cepat dan mudah. Aplikasi ini dirancang untuk memberikan pengalaman perbankan yang lebih baik tanpa harus ke cabang. Jadi, semuanya bisa dilakukan dari genggaman tanganmu!   
+
+Model 4o-mini: Livin' adalah aplikasi perbankan digital yang super keren dari Bank Mandiri!   Dengan Livin', kamu bisa melakukan berbagai transaksi perbankan dengan mudah dan cepat, seperti transfer uang, bayar tagihan, cek saldo, dan masih banyak lagi, semuanya secara online. Jadi, kamu nggak perlu repot-repot ke bank, cukup pakai smartphone kamu!    Livin' dirancang khusus untuk memudahkan nasabah, terutama generasi muda seperti kamu. Yuk, coba dan rasakan kemudahan bertransaksi dengan Livin'!
+
+
+Anak Muda (18-25 tahun) | 4o&4o-mini 
+
+
+- Model 4o-mini	| Token 485	| 4.72 detik
+
+
+- Model 4o	| Token 437	| 4.00 detik"
+2024-10-31 00:20:57,Sunarto Xie,Anak Muda (18-25 tahun),"apa itu livin
+
+","Model 4o: Hai!   Livin' by Mandiri adalah aplikasi perbankan digital dari Bank Mandiri yang memudahkan kamu untuk melakukan berbagai transaksi perbankan. Dengan Livin', kamu bisa transfer uang, bayar tagihan, top-up e-wallet, dan banyak lagi, semuanya dari satu aplikasi di smartphone kamu. Aplikasi ini juga dilengkapi dengan fitur-fitur keren seperti pembukaan rekening online dengan face recognition, tarik tunai tanpa kartu, dan promo-promo menarik yang sesuai dengan kebutuhanmu. Jadi, nggak perlu repot ke bank, semua bisa dilakukan dengan mudah dan cepat lewat Livin'!   (Source: FAQ/Panduan Jawaban New Livin’ by Mandiri Versi 1.9.0)
+
+Model 4o-mini: Livin' by Mandiri adalah aplikasi keuangan super keren yang dikembangkan oleh Bank Mandiri!   Dengan Livin', kamu bisa melakukan berbagai transaksi perbankan secara online, seperti transfer uang, bayar tagihan, dan mengelola keuangan kamu dengan mudah. Semua bisa dilakukan hanya dari smartphone kamu, tanpa perlu repot-repot ke bank!   
+
+Aplikasi ini juga dilengkapi dengan fitur-fitur menarik yang bikin pengalaman perbankan kamu jadi lebih seru dan praktis. Jadi, siap untuk menjelajahi semua kemudahan yang ditawarkan Livin'?  
+
+
+Anak Muda (18-25 tahun) | 4o&4o-mini 
+
+
+- Model 4o-mini			| Token 531	| 4.91 detik
+
+
+- Model 4o			| Token 631	| 6.27 detik"
+2024-10-31 00:21:47,Sunarto Xie,Anak Muda (18-25 tahun),apa itu livin ?,"Hai!   Livin' by Mandiri adalah aplikasi perbankan digital dari Bank Mandiri yang bikin hidup kamu lebih mudah. Dengan Livin', kamu bisa melakukan berbagai transaksi perbankan langsung dari smartphone, seperti transfer uang, cek saldo, bayar tagihan, dan banyak lagi. Semua layanan ini ada dalam satu aplikasi yang praktis dan user-friendly, jadi kamu nggak perlu repot-repot ke bank. Cocok banget buat kamu yang aktif dan selalu on-the-go!   (Source: FAQ/Panduan Jawaban New Livin’ by Mandiri)
+
+
+Anak Muda (18-25 tahun) | 4o Model 4o | Token 494 | 4.24 detik"
+2024-10-31 00:23:28,Sunarto Xie,Anak Muda (18-25 tahun),apa itu livin ?,"Model 4o: Livin' by Mandiri adalah aplikasi perbankan digital dari Bank Mandiri yang memungkinkan nasabah untuk menikmati layanan perbankan lengkap dalam satu aplikasi. Dengan New Livin’ by Mandiri, kamu bisa melakukan berbagai transaksi seperti pembukaan rekening, pengajuan kartu kredit, top-up e-wallet, dan bahkan tarik tunai tanpa kartu hingga Rp 5 juta per hari. Aplikasi ini juga terintegrasi dengan berbagai aplikasi keseharian dan menawarkan fitur-fitur menarik seperti face recognition untuk pembukaan rekening online, Smart Reminder, dan Instant Access. Jadi, semua kebutuhan perbankanmu bisa dilakukan dengan mudah dan cepat tanpa harus ke cabang!    (Source: FAQ/Panduan Jawaban New Livin’ by Mandiri Versi 1.9.0)
+
+Model 4o-mini: Livin' by Mandiri adalah aplikasi perbankan super keren dari Bank Mandiri yang memudahkan kamu untuk melakukan berbagai layanan keuangan!   Dengan Livin', kamu bisa melakukan transaksi perbankan, bayar tagihan, dan mengelola keuangan pribadi dengan lebih mudah dan cepat, semuanya dalam satu aplikasi. Jadi, kamu bisa fokus pada hal-hal yang lebih penting tanpa ribet!   
+
+Kalau kamu mau tahu lebih banyak tentang fitur-fitur menariknya, jangan ragu untuk tanya ya!  
+
+
+Anak Muda (18-25 tahun) | 4o&4o-mini 
+
+
+- Model 4o-mini			| Token 467	| 5.10 detik
+
+
+- Model 4o			| Token 716	| 7.81 detik"
+2024-10-31 00:24:36,Sunarto Xie,Anak Muda (18-25 tahun),apa itu livin ?,"Model 4o: Hai!   Livin' by Mandiri adalah aplikasi perbankan digital dari Bank Mandiri yang memungkinkan kamu untuk menikmati layanan perbankan lengkap dalam satu aplikasi. Dengan New Livin' by Mandiri, kamu bisa melakukan berbagai transaksi seperti transfer, pembayaran, dan pengelolaan tabungan tanpa harus datang ke cabang. Aplikasi ini juga dilengkapi dengan fitur-fitur keren seperti pembukaan rekening online dengan teknologi face recognition, tarik tunai tanpa kartu, dan banyak lagi! Jadi, semuanya jadi lebih praktis dan efisien buat kamu!   (Source: FAQ/Panduan Jawaban New Livin’ by Mandiri)
+
+Model 4o-mini: Livin' adalah aplikasi perbankan digital dari Bank Mandiri yang super praktis!   Dengan Livin', kamu bisa melakukan berbagai transaksi keuangan seperti transfer uang, bayar tagihan, dan mengelola rekening hanya lewat smartphone kamu. Jadi, semua urusan perbankan jadi lebih mudah dan cepat!    Coba deh, rasakan kemudahan bertransaksi di genggaman tanganmu!
+
+
+Anak Muda (18-25 tahun) | Model 4o&4o-mini 
+
+
+- Model 4o-mini			| Token 357	| 3.69 detik
+
+
+- Model 4o			| Token 592	| 4.59 detik"
+2024-10-31 00:24:53,Sunarto Xie,Anak Muda (18-25 tahun),apa itu livin ?,"Livin' by Mandiri adalah layanan perbankan digital yang super praktis!   Dengan aplikasi ini, kamu bisa mengelola keuangan dengan mudah, mulai dari transfer uang, bayar tagihan, hingga cek saldo, semua bisa dilakukan hanya dengan beberapa klik di smartphone kamu. 
+
+Layanan ini dirancang untuk memberikan kemudahan dan kenyamanan dalam berinteraksi dengan bank secara online, jadi kamu bisa fokus pada hal-hal yang lebih penting dalam hidupmu!    Coba deh, rasakan pengalaman perbankan yang modern dan cocok banget untuk anak muda seperti kamu!
+
+
+Anak Muda (18-25 tahun) | Model 4o-mini | Token 544 | 4.68 detik"
+2024-10-31 00:25:33,Sunarto Xie,Anak Muda (18-25 tahun),rekomendasikan product untuk saya,"Halo Sunarto Xie!   Berdasarkan data yang kita punya, ada beberapa rekomendasi produk perbankan yang bisa pas banget buat kamu:
+
+1. **KPR (Kredit Pemilikan Rumah)**: Bantu kamu mewujudkan impian punya rumah sendiri dengan cicilan yang terjangkau.
+   
+2. **AUTOLOAN**: Bikin kamu bisa dapetin kendaraan impian dengan cara cicil yang lebih ringan.
+
+3. **KSM (Kredit Serbaguna Mandiri)**: Bisa dipakai untuk berbagai kebutuhan, kayak renovasi rumah, biaya pendidikan, atau yang lainnya tanpa perlu jaminan.
+
+Kalau ada pertanyaan lebih lanjut tentang produk ini atau butuh info lebih detail, jangan ragu buat nanya, ya!   
+
+
+Anak Muda (18-25 tahun) | Model 4o-mini | Token 622 | 8.08 detik"
+2024-10-31 00:25:57,Sunarto Xie,Anak Muda (18-25 tahun),dari rekomendasi pilih satu random,"Untuk memilih satu rekomendasi secara acak, kamu bisa menggunakan fitur yang ada di aplikasi Livin' by Mandiri!   
+
+1. Buka aplikasi Livin' by Mandiri.
+2. Pilih menu yang sesuai dengan kebutuhanmu, misalnya ""Transfer"" atau ""Bayar"".
+3. Di halaman rekomendasi, kamu bisa scroll dan lihat beberapa pilihan yang muncul.
+4. Untuk memilih satu secara acak, cukup klik salah satu rekomendasi yang muncul, dan kamu bisa langsung melanjutkan transaksi! 
+
+Kalau ada yang ingin ditanyakan lebih lanjut, jangan ragu untuk tanya ya!  
+
+
+Anak Muda (18-25 tahun) | Model 4o-mini | Token 521 | 4.38 detik"
+2024-10-31 00:26:22,Sunarto Xie,Anak Muda (18-25 tahun),dari rekomendasi sayaa pilih satu random rekomendasi untuk saya,"Hai!   Dari semua rekomendasi yang ada untuk nasabah Sunarto Xie, mari kita pilih satu secara acak. Produk yang bisa jadi menarik buat kamu adalah **Kredit Serbaguna Mandiri (KSM)**! Produk ini keren banget buat kamu yang butuh pembiayaan untuk kebutuhan serbaguna, seperti pendidikan atau renovasi rumah, tanpa perlu agunan. Cocok untuk milenial yang butuh fleksibilitas!   
+
+Kalau ada yang perlu ditanyakan lagi seputar produk ini atau yang lain, langsung aja tanya ya!  
+
+
+Anak Muda (18-25 tahun) | Model 4o-mini | Token 477 | 9.00 detik"
+2024-10-31 00:27:24,Sunarto Xie,Anak Muda (18-25 tahun),kenapa kamu milih  Kredit Serbaguna Mandiri (KSM) untuk saya dan beri alasannya,"Hai!   Untuk Sunarto Xie, rekomendasi produk KSM atau Kredit Serbaguna Mandiri dipilih karena produk ini sangat fleksibel dan cocok untuk berbagai kebutuhan seperti pendidikan, renovasi rumah, atau bahkan biaya kesehatan. Berdasarkan data, Sunarto Xie aktif melakukan transaksi baik antarbank maupun in-house, dan memiliki saldo yang cukup stabil. KSM nggak memerlukan agunan, jadi bener-bener ngebantu banget kalo butuh dana cepat dan fleksibel buat berbagai keperluan. Jadi, pilihan ini pastinya bisa mempermudah manajemen keuangan dengan tenor dan suku bunga yang bisa dikondisikan sesuai kebijakan bank.   
+
+
+Anak Muda (18-25 tahun) | Model 4o-mini | Token 618 | 5.73 detik"
+2024-10-31 00:28:12,Sunarto Xie,Anak Muda (18-25 tahun),list transaksi saya,"Berikut adalah daftar transaksi untuk rekening Sunarto Xie:
+
+1. **Tanggal Transaksi:** 2024-05-01  
+   **Jenis Transaksi:** TRANSFER ANTARBANK  
+   **Amount Transaksi:** 277000
+
+2. **Tanggal Transaksi:** 2024-05-06  
+   **Jenis Transaksi:** TRANSFER INHOUSE  
+   **Amount Transaksi:** 9300000
+
+3. **Tanggal Transaksi:** 2024-05-10  
+   **Jenis Transaksi:** QR PAYMENT  
+   **Amount Transaksi:** 20000
+
+4. **Tanggal Transaksi:** 2024-05-11  
+   **Jenis Transaksi:** TRANSFER INHOUSE  
+   **Amount Transaksi:** 1010000
+
+5. **Tanggal Transaksi:** 2024-05-16  
+   **Jenis Transaksi:** TRANSFER INHOUSE  
+   **Amount Transaksi:** 1000000
+
+6. **Tanggal Transaksi:** 2024-05-26  
+   **Jenis Transaksi:** TOP-UP  
+   **Amount Transaksi:** 23500
+
+7. **Tanggal Transaksi:** 2024-05-31  
+   **Jenis Transaksi:** TOP-UP  
+   **Amount Transaksi:** 350000
+
+8. **Tanggal Transaksi:** 2024-06-10  
+   **Jenis Transaksi:** QR PAYMENT  
+   **Amount Transaksi:** 1866970
+
+Kalau ada yang mau ditanyakan lagi, jangan ragu ya!  
+
+
+Anak Muda (18-25 tahun) | Model 4o-mini | Token 1010 | 7.01 detik"
+2024-10-31 00:28:43,Sunarto Xie,Anak Muda (18-25 tahun),list transaksi saya,"Model 4o: Hai! Tentu, berikut adalah daftar transaksi untuk Sunarto Xie:
+
+1. **Tanggal:** 2024-05-01, **Jenis Transaksi:** TRANSFER ANTARBANK, **Jumlah:** 277,000 (Source: Content)
+2. **Tanggal:** 2024-05-06, **Jenis Transaksi:** TRANSFER INHOUSE, **Jumlah:** 9,300,000 (Source: Content)
+3. **Tanggal:** 2024-05-16, **Jenis Transaksi:** TRANSFER INHOUSE, **Jumlah:** 1,000,000 (Source: Content)
+4. **Tanggal:** 2024-05-21, **Jenis Transaksi:** TOP-UP, **Jumlah:** 25,000 (Source: Content)
+5. **Tanggal:** 2024-05-26, **Jenis Transaksi:** TOP-UP, **Jumlah:** 23,500 (Source: Content)
+6. **Tanggal:** 2024-05-31, **Jenis Transaksi:** TOP-UP, **Jumlah:** 350,000 (Source: Content)
+7. **Tanggal:** 2024-06-05, **Jenis Transaksi:** TRANSFER ANTARBANK, **Jumlah:** 18,600,000 (Source: Content)
+8. **Tanggal:** 2024-06-10, **Jenis Transaksi:** QR PAYMENT, **Jumlah:** 1,866,970 (Source: Content)
+9. **Tanggal:** 2024-06-15, **Jenis Transaksi:** TOP-UP, **Jumlah:** 70,000 (Source: Content)
+
+Semoga informasi ini membantu! Kalau ada yang mau ditanyakan lagi, jangan ragu ya!  
+
+Model 4o-mini: Berikut adalah daftar transaksi untuk rekening Sunarto Xie:
+
+1. **Tanggal Transaksi:** 2024-05-01  
+   **Jenis Transaksi:** TRANSFER ANTARBANK  
+   **Amount Transaksi:** 277000
+
+2. **Tanggal Transaksi:** 2024-05-06  
+   **Jenis Transaksi:** TRANSFER INHOUSE  
+   **Amount Transaksi:** 9300000
+
+3. **Tanggal Transaksi:** 2024-05-10  
+   **Jenis Transaksi:** QR PAYMENT  
+   **Amount Transaksi:** 20000
+
+4. **Tanggal Transaksi:** 2024-05-11  
+   **Jenis Transaksi:** TRANSFER INHOUSE  
+   **Amount Transaksi:** 1010000
+
+5. **Tanggal Transaksi:** 2024-05-16  
+   **Jenis Transaksi:** TRANSFER INHOUSE  
+   **Amount Transaksi:** 1000000
+
+6. **Tanggal Transaksi:** 2024-05-26  
+   **Jenis Transaksi:** TOP-UP  
+   **Amount Transaksi:** 23500
+
+7. **Tanggal Transaksi:** 2024-05-31  
+   **Jenis Transaksi:** TOP-UP  
+   **Amount Transaksi:** 350000
+
+8. **Tanggal Transaksi:** 2024-06-10  
+   **Jenis Transaksi:** QR PAYMENT  
+   **Amount Transaksi:** 1866970
+
+Kalau ada yang mau ditanyakan lagi, jangan ragu ya!  
+
+
+Anak Muda (18-25 tahun) | Model 4o&4o-mini 
+
+
+- Model 4o-mini			| Token 1010	| 5.74 detik
+
+
+- Model 4o			| Token 1062	| 7.07 detik"
+2024-10-31 00:29:22,Sunarto Xie,Anak Muda (18-25 tahun),berapa kali transaksi yang telah saya lakukan,"Model 4o: Hai!   Untuk nasabah dengan nama Sunarto Xie, berikut adalah jumlah transaksi yang telah dilakukan:
+
+1. 2024-05-01: TRANSFER ANTARBANK (Rp277.000) (Source: Content)
+2. 2024-05-06: TRANSFER INHOUSE (Rp9.300.000) (Source: Content)
+3. 2024-05-10: TRANSFER INHOUSE (Rp100.000) (Source: Content)
+4. 2024-05-16: TRANSFER INHOUSE (Rp1.000.000) (Source: Content)
+5. 2024-05-21: TOP-UP (Rp25.000) (Source: Content)
+6. 2024-05-26: TOP-UP (Rp23.500) (Source: Content)
+7. 2024-05-31: TOP-UP (Rp350.000) (Source: Content)
+8. 2024-06-05: TRANSFER ANTARBANK (Rp18.600.000) (Source: Content)
+9. 2024-06-10: QR PAYMENT (Rp1.866.970) (Source: Content)
+10. 2024-06-15: TOP-UP (Rp70.000) (Source: Content)
+
+Jadi, total ada 10 transaksi yang telah dilakukan oleh Sunarto Xie. Jika ada yang ingin ditanyakan lebih lanjut, jangan ragu untuk menghubungi kami!  
+
+Model 4o-mini: Hai!   Untuk nasabah Sunarto Xie, sudah ada total 12 transaksi yang dilakukan. Jika ada yang ingin kamu tanyakan lebih lanjut tentang transaksi atau layanan lainnya, jangan ragu untuk bertanya ya!   
+
+
+Anak Muda (18-25 tahun) | Model 4o&4o-mini 
+
+
+- Model 4o-mini			| Token 203	| 4.56 detik
+
+
+- Model 4o			| Token 845	| 6.99 detik"
+2024-10-31 08:58:47,Sunarto Xie,Anak Muda (18-25 tahun),apa itu livin,"Hai!   Livin' by Mandiri adalah aplikasi perbankan digital dari Bank Mandiri yang bikin hidup kamu lebih praktis dan efektif dalam urusan keuangan. Dengan Livin', kamu bisa akses rekening, transfer uang, bayar tagihan, dan kelola keuanganmu secara online. Aplikasi ini dirancang buat memenuhi kebutuhan perbankan modern dengan fitur-fitur keren yang memudahkan kamu mengatur dan mengontrol keuangan. Jadi, semua bisa dilakukan dari genggaman tanganmu!   
+
+
+Anak Muda (18-25 tahun) | Model 4o | Token 454 | 3.64 detik"
+2024-10-31 08:59:19,Sunarto Xie,Anak Muda (18-25 tahun),apa itu livin,"Model 4o: Hai!   Livin' by Mandiri adalah aplikasi perbankan digital dari Bank Mandiri yang bikin hidup kamu lebih mudah dalam mengelola keuangan. Dengan Livin', kamu bisa melakukan berbagai transaksi seperti transfer, pembayaran, dan akses layanan perbankan lainnya langsung dari smartphone kamu. Jadi, semua urusan perbankan bisa dilakukan dengan cepat dan praktis tanpa harus ke bank. Cocok banget buat kamu yang aktif dan selalu on-the-go!   (Source: FAQ/Panduan Jawaban New Livin’ by Mandiri)
+
+Model 4o-mini: Livin' by Mandiri adalah aplikasi finansial yang super praktis untuk kamu!   Dengan Livin', kamu bisa mengelola rekening, melakukan transfer, dan cek saldo kapan saja dan di mana saja. Aplikasi ini dirancang untuk memberikan kemudahan dan kenyamanan dalam mengakses layanan perbankan, jadi kamu bisa fokus pada hal-hal yang lebih penting dalam hidupmu!    
+
+Kalau kamu mau tahu lebih banyak tentang fitur-fitur menariknya, jangan ragu untuk tanya ya!
+
+
+Anak Muda (18-25 tahun) | Model 4o&4o-mini 
+
+
+- Model 4o-mini			| Token 450	| 3.22 detik
+
+
+- Model 4o			| Token 487	| 5.51 detik"
